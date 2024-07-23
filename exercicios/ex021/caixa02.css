@@ -1,0 +1,68 @@
+@charset "Uft-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 10px;
+    background-color: cornflowerblue;
+}
+header{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+nav{
+    padding: 10px;
+    margin: 10px;
+    background-color: cadetblue;
+    
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: right;
+    box-shadow: 5px 3px 7px 1px black;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: cadetblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+article{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+article > aside{
+    background-color: darkgray;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+footer > p{
+    margin: 0px;
+}
+a::after{
+    content: "☾";
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+div#bola{
+    background-color: aqua;
+    border-radius: 50%;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}

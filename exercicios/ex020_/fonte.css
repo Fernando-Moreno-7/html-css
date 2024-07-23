@@ -1,0 +1,37 @@
+@charset "UFT-8";
+a{
+    color: red;
+    text-decoration: none;
+}
+a:visited{
+    color: purple;
+
+}
+a:hover{
+    color:black;
+    text-decoration: underline;
+}
+a:active{
+    color: yellow;
+
+}
+a::after{
+    content: "☾";
+}
+a::before{
+    content: "☀";
+}
+.especial::after{
+    content: "☂";
+}
+ol{
+    text-align: center;
+}
+#shape{
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

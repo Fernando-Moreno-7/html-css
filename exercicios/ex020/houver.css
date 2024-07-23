@@ -1,0 +1,14 @@
+@charset "UFT-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div:hover{
+    color: blueviolet;
+
+}
+div:hover > p{
+    display: block;
+}
+div > p{
+    display: none;
+}
